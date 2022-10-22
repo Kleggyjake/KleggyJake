@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in Page</title>
+    <link rel="stylesheet" href="log.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</head>
+<body background="1.png" style="background-size: 50%;background-repeat: no-repeat;;">
+    <div class="container">
+        <div class="box">
+
+    <form>
+        <p>
+            <label style="font-weight: bold;" for="uname">User Name:</label> <br>
+            <input type="text" id="uname" name="uname">
+        </p>
+
+        <p>
+            <label style="font-weight: bold;" for="pword">Password:</label> <br>
+            <input type="password" id="pword" name="pword">
+        </p>
+    
+        <p> <br>
+            
+            <!-- <input type="submit" value="Submit"> -->
+            <button type="button" class="button" onclick="pop()">Submit</button>
+            <input type="reset" value="Reset"> 
+            
+</div>
+
+   
+            <!-- <button id="submit"> Submit </button>  -->
+        </p>
+    </form>
+    
+    <script>
+        function pop() {
+        alert("Thank You for logging in! Come again!");
+        window.location.href="request.html", '_blank';
+        }
+        </script>
+    
+
+    
+        </div> 
+    </div>
+</body>
+</html>
